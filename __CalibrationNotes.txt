@@ -1,6 +1,6 @@
 Instructions:
 1. Delete my calibration settings in settings.cc - use the defaults I added and then commented out above my changes.
-2. Edit factory_settings.cc - Look for comment that says “AJH” my initials. Where it says #if 0 for the dac calibration, change the zero to one.
+2. Edit factory_test.cc - Look for comment that says “AJH” my initials. Where it says #if 0 for the dac calibration, change the zero to one.
 3. Compile and flash - everything blinks as you are in calibration mode.
 4. Turn 1st pot to zero
 5. All outputs should be trying to output -1v
@@ -10,7 +10,7 @@ Instructions:
 9. Measure and record all voltages
 10. Add to spreadsheet
 11. Add dac offset and dac scale to settings.cc (leave adc scale and offset at -1 and 0 respectively
-12. Change the 1 back to 0 in factory_settings.cc and change the 0 to 1 for adc
+12. Change the 1 back to 0 in factory_test.cc and change the 0 to 1 for adc
 13. Recompile and flash
 14. Apply -1 and 2v to the time/level cv inputs for each channel and record the voltages
 15. Add these to the adc section of the spreadsheet
