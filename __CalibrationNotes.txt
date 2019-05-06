@@ -15,6 +15,6 @@ Instructions:
 14. Apply -1 and 2v to the time/level cv inputs for each channel and record the voltages
 15. Add these to the adc section of the spreadsheet
 16 Update settings.cc for adc
-17. Change the factory_settings.cc back to the original file or change both #if s back to 0
+17. Change the factory_test.cc back to the original file or change both #if s back to 0
 18 Recompile and reflash.
 19. Power cycle and you’re done
