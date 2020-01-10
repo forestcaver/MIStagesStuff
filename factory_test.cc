@@ -112,7 +112,7 @@ else dac_code = settings_->dac_code(j, 0.25);
 #endif
 
 #if 0
-//adc calibration, patach -1v and then -2v, reading all the values
+//adc calibration, patch -1v and then 2v, reading all the values
 
 float cv;
 ChannelCalibrationData* cal = settings_->mutable_calibration_data(j);
