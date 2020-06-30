@@ -78,7 +78,7 @@ bool Settings::Init() {
   persistent_data_.channel_calibration_data[1].adc_offset = 0.0f /* FIXME */;
   persistent_data_.channel_calibration_data[1].adc_scale = -1.0f /* FIXME */;
   persistent_data_.channel_calibration_data[2].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[3].adc_scale = -1.0f /* FIXME */;
+  persistent_data_.channel_calibration_data[2].adc_scale = -1.0f /* FIXME */;
   persistent_data_.channel_calibration_data[3].adc_offset = 0.0f /* FIXME */;
   persistent_data_.channel_calibration_data[3].adc_scale = -1.0f /* FIXME */;
   persistent_data_.channel_calibration_data[4].adc_offset = 0.0f /* FIXME */;
@@ -117,7 +117,7 @@ bool Settings::Init() {
   //
 #endif
 
-#if 1
+#if 0
 // Module 2
   persistent_data_.channel_calibration_data[0].dac_offset = 32904.73046875f;
   persistent_data_.channel_calibration_data[0].dac_scale = -32346.59960938f;
